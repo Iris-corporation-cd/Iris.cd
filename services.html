@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nos Services | IRIS Corporation</title>
+  <meta name="description" content="Services digitaux complets en RDC : création de sites web, applications mobiles, marketing digital, design UI/UX à Kinshasa.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="iris-scroll-progress" aria-hidden="true"></div>
+
+<!-- Navigation -->
+<nav class="iris-nav">
+  <a href="index.html" class="iris-nav-logo">
+    <div class="iris-nav-logo-box"><span>I</span></div>
+    <div class="iris-nav-logo-text">IRIS</div>
+  </a>
+  <div class="iris-nav-links">
+    <a href="index.html">Accueil</a>
+    <a href="services.html" class="active">Services</a>
+    <a href="promo.html" style="color: #e63946; font-weight: 600;">🔥 Promo Sites Web</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="apropos.html">À Propos</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="iris-nav-cta">Demander un devis</a>
+  </div>
+  <button class="iris-nav-mobile-btn" onclick="toggleMobileMenu()" aria-label="Menu">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+  </button>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="iris-mobile-menu" id="mobileMenu">
+  <button class="iris-mobile-menu-close" onclick="toggleMobileMenu()" aria-label="Fermer">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+  </button>
+  <a href="index.html" onclick="toggleMobileMenu()">Accueil</a>
+  <a href="services.html" onclick="toggleMobileMenu()">Services</a>
+  <a href="promo.html" onclick="toggleMobileMenu()" style="color: #e63946;">🔥 Promo Sites Web</a>
+  <a href="portfolio.html" onclick="toggleMobileMenu()">Portfolio</a>
+  <a href="apropos.html" onclick="toggleMobileMenu()">À Propos</a>
+  <a href="contact.html" onclick="toggleMobileMenu()">Contact</a>
+</div>
+
+<!-- Hero -->
+<section class="iris-hero" style="padding-top: 120px;">
+  <h1>Nos <span>Services</span></h1>
+  <p class="iris-hero-sub">Des solutions digitales complètes et adaptées au marché en RDC. De la stratégie à l'exécution, nous vous accompagnons à chaque étape.</p>
+</section>
+
+<!-- Services Grid -->
+<section class="iris-section">
+  <div class="iris-services-grid">
+    <div class="iris-service-card iris-reveal">
+      <div class="iris-service-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M4 3h16v15H5v-13H4zm1 2v12h14V5H5z" fill="currentColor"/><path d="M7 8h10v1H7zm0 3h10v1H7zm0 3h6v1H7z" fill="currentColor"/></svg></div>
+      <h3>Création de Sites Web <span class="promo-tag">EN PROMO</span></h3>
+      <p>Sites vitrines, e-commerce, plateformes SaaS et applications web progressives. Technologies modernes, design responsive et optimisation pour le marché en RDC. À partir de 199$ en ce moment !</p>
+    </div>
+    <div class="iris-service-card iris-reveal">
+      <div class="iris-service-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M17 1.01L7 1c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z" fill="currentColor"/></svg></div>
+      <h3>Applications Mobiles</h3>
+      <p>Conception et développement d'applications iOS et Android natives ou cross-platform. Intégration paiement mobile (M-Pesa, Airtel Money, Orange Money) pour le marché en RDC.</p>
+    </div>
+    <div class="iris-service-card iris-reveal">
+      <div class="iris-service-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor"/></svg></div>
+      <h3>Design UI/UX</h3>
+      <p>Interfaces intuitives et esthétiques adaptées aux usages locaux. Prototypes interactifs, design systems et audits d'expérience utilisateur pour des produits remarquables.</p>
+    </div>
+    <div class="iris-service-card iris-reveal">
+      <div class="iris-service-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor"/></svg></div>
+      <h3>Marketing Digital</h3>
+      <p>Stratégies SEO/SEA adaptées au marché en RDC, campagnes publicitaires ciblées sur Facebook et Instagram, email marketing et analyse de performance pour maximiser votre visibilité.</p>
+    </div>
+    <div class="iris-service-card iris-reveal">
+      <div class="iris-service-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z" fill="currentColor"/></svg></div>
+      <h3>Data & Analytics</h3>
+      <p>Tableaux de bord personnalisés, analyses de marché pour la RDC, intelligence artificielle et analyse prédictive pour des décisions éclairées.</p>
+    </div>
+    <div class="iris-service-card iris-reveal">
+      <div class="iris-service-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor"/></svg></div>
+      <h3>Réseaux Sociaux</h3>
+      <p>Gestion de communauté, création de contenu adapté au contexte local, stratégie social media et influence marketing pour engager votre audience.</p>
+    </div>
+    <div class="iris-service-card iris-reveal">
+      <div class="iris-service-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor"/></svg></div>
+      <h3>SEO & Content</h3>
+      <p>Optimisation technique, stratégie de contenu en français et en lingala, rédaction web et netlinking pour dominer les résultats de recherche en RDC.</p>
+    </div>
+    <div class="iris-service-card iris-reveal">
+      <div class="iris-service-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor"/></svg></div>
+      <h3>Cloud & DevOps</h3>
+      <p>Déploiement cloud, CI/CD, infrastructure scalable et sécurité pour des applications robustes et performantes adaptées aux contraintes du réseau en RDC.</p>
+    </div>
+    <div class="iris-service-card iris-reveal">
+      <div class="iris-service-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor"/></svg></div>
+      <h3>Intégration & API</h3>
+      <p>Connexion de systèmes, développement d'APIs, automatisation de workflows et intégration de solutions tierces (paiement mobile, SMS, etc.).</p>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="iris-section" style="text-align: center; background: linear-gradient(135deg, #1a5f9e 0%, #3A9BD8 100%); color: white; border-radius: 24px; margin: 40px auto; max-width: 1100px;">
+  <h2 style="font-size: 32px; font-weight: 600; margin-bottom: 16px;">Besoin d'un service sur mesure ?</h2>
+  <p style="font-size: 18px; opacity: 0.9; max-width: 600px; margin: 0 auto 32px;">Discutons de votre projet. Nous créons des solutions adaptées à vos besoins spécifiques.</p>
+  <a href="contact.html" class="iris-btn-gold">Demander un devis gratuit</a>
+</section>
+
+<a class="whatsapp-float" href="https://wa.me/243821362838" target="_blank" rel="noopener" aria-label="Contacter IRIS sur WhatsApp"><span>◔</span><b>WhatsApp</b></a>
+
+<!-- Footer -->
+<footer class="iris-footer">
+  <div class="iris-footer-logo">
+    <div class="iris-footer-logo-box"><span>I</span></div>
+    <div class="iris-footer-logo-text">IRIS Corporation RDC</div>
+  </div>
+  <div class="iris-footer-links">
+    <a href="index.html">Accueil</a>
+    <a href="services.html">Services</a>
+    <a href="promo.html">Promo</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="apropos.html">À Propos</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <div class="iris-footer-copy">© 2026 IRIS Corporation RDC. Tous droits réservés.</div>
+</footer>
+
+<script>
+  function toggleMobileMenu() {
+    const menu = document.getElementById('mobileMenu');
+    menu.classList.toggle('active');
+  }
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); } });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.iris-reveal').forEach(el => observer.observe(el));
+</script>
+
+
+<script>
+(function(){
+  const root=document.documentElement;
+  const progress=document.querySelector('.iris-scroll-progress');
+  const nav=document.querySelector('.iris-nav');
+
+  function onScroll(){
+    const max=document.documentElement.scrollHeight-window.innerHeight;
+    const pct=max>0?(window.scrollY/max)*100:0;
+    if(progress) progress.style.width=pct+'%';
+    if(nav) nav.classList.toggle('scrolled',window.scrollY>18);
+  }
+  onScroll();
+  window.addEventListener('scroll',onScroll,{passive:true});
+
+  window.addEventListener('pointermove',function(e){
+    root.style.setProperty('--mx',e.clientX+'px');
+    root.style.setProperty('--my',e.clientY+'px');
+  },{passive:true});
+
+  document.querySelectorAll('.iris-service-card,.why-card,.iris-portfolio-card').forEach(function(card){
+    card.addEventListener('pointermove',function(e){
+      if(window.matchMedia('(max-width: 768px)').matches) return;
+      const r=card.getBoundingClientRect();
+      const x=(e.clientX-r.left)/r.width-.5;
+      const y=(e.clientY-r.top)/r.height-.5;
+      card.style.transform='translateY(-8px) perspective(900px) rotateX('+(-y*2.2)+'deg) rotateY('+(x*2.2)+'deg)';
+    });
+    card.addEventListener('pointerleave',function(){
+      card.style.transform='';
+    });
+  });
+})();
+</script>
+
+
+<script>
+(()=> {
+ const body=document.body;
+ const progress=document.createElement('div'); progress.className='iris-progress'; body.appendChild(progress);
+ const cursor=document.createElement('div'); cursor.className='iris-cursor'; body.appendChild(cursor);
+ const dot=document.createElement('div'); dot.className='iris-cursor-dot'; body.appendChild(dot);
+ body.classList.add('iris-ready');
+
+ let mx=innerWidth/2,my=innerHeight/2,cx=mx,cy=my;
+ addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY});
+ function tick(){
+   cx += (mx-cx)*.16; cy += (my-cy)*.16;
+   cursor.style.left=cx+'px'; cursor.style.top=cy+'px';
+   dot.style.left=mx+'px'; dot.style.top=my+'px';
+   requestAnimationFrame(tick);
+ }
+ tick();
+
+ function updateProgress(){
+   const h=document.documentElement, max=h.scrollHeight-innerHeight;
+   progress.style.width=(max>0?(scrollY/max*100):0)+'%';
+ }
+ addEventListener('scroll',updateProgress,{passive:true}); updateProgress();
+
+ const io=new IntersectionObserver(es=>es.forEach(e=>{
+   if(e.isIntersecting){e.target.classList.add('iris-visible');io.unobserve(e.target)}
+ }),{threshold:.12});
+ document.querySelectorAll('section,article,.card,.service-card,.portfolio-item,.project-card,.feature,.hero-content,.hero-image').forEach((el,i)=>{
+   el.classList.add('iris-reveal');
+   el.style.transitionDelay=Math.min(i*35,280)+'ms';
+   io.observe(el);
+ });
+
+ document.querySelectorAll('a,button,[role="button"]').forEach(el=>{
+   el.addEventListener('mouseenter',()=>{cursor.style.transform='translate(-50%,-50%) scale(1.65)';cursor.style.borderColor='rgba(255,255,255,.85)'});
+   el.addEventListener('mouseleave',()=>{cursor.style.transform='translate(-50%,-50%) scale(1)';cursor.style.borderColor='rgba(255,255,255,.55)'});
+ });
+
+ document.querySelectorAll('.iris-magnetic').forEach(el=>{
+   el.addEventListener('mousemove',e=>{
+     const r=el.getBoundingClientRect(),x=(e.clientX-r.left-r.width/2)/r.width,y=(e.clientY-r.top-r.height/2)/r.height;
+     el.style.transform=`translate(${x*10}px,${y*10}px)`;
+   });
+   el.addEventListener('mouseleave',()=>el.style.transform='');
+ });
+})();
+</script>
+
+</body>
+</html>

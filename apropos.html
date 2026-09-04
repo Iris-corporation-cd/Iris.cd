@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>À Propos | IRIS Corporation</title>
+  <meta name="description" content="Agence digitale de référence en RDC. 8 ans d'expérience, 200+ projets réalisés pour des entreprises en RDC.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="iris-scroll-progress" aria-hidden="true"></div>
+
+<!-- Navigation -->
+<nav class="iris-nav">
+  <a href="index.html" class="iris-nav-logo">
+    <div class="iris-nav-logo-box"><span>I</span></div>
+    <div class="iris-nav-logo-text">IRIS</div>
+  </a>
+  <div class="iris-nav-links">
+    <a href="index.html">Accueil</a>
+    <a href="services.html">Services</a>
+    <a href="promo.html" style="color: #e63946; font-weight: 600;">🔥 Promo Sites Web</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="apropos.html" class="active">À Propos</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="iris-nav-cta">Demander un devis</a>
+  </div>
+  <button class="iris-nav-mobile-btn" onclick="toggleMobileMenu()" aria-label="Menu">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+  </button>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="iris-mobile-menu" id="mobileMenu">
+  <button class="iris-mobile-menu-close" onclick="toggleMobileMenu()" aria-label="Fermer">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+  </button>
+  <a href="index.html" onclick="toggleMobileMenu()">Accueil</a>
+  <a href="services.html" onclick="toggleMobileMenu()">Services</a>
+  <a href="promo.html" onclick="toggleMobileMenu()" style="color: #e63946;">🔥 Promo Sites Web</a>
+  <a href="portfolio.html" onclick="toggleMobileMenu()">Portfolio</a>
+  <a href="apropos.html" onclick="toggleMobileMenu()">À Propos</a>
+  <a href="contact.html" onclick="toggleMobileMenu()">Contact</a>
+</div>
+
+<!-- About Hero -->
+<section class="about-hero" style="padding-top: 120px;">
+  <div class="about-hero-content">
+    <h1>IRIS Corporation</h1>
+    <p>IRIS Corporation accompagne les entreprises, organisations et porteurs de projets dans leur transformation digitale, avec une approche centrée sur la stratégie, la création et l’impact.</p>
+    <p>Notre ambition est simple : rendre chaque marque plus visible, plus crédible et plus performante grâce au digital.</p>
+    <a href="promo.html" class="iris-btn-primary">Voir notre promo actuelle</a>
+  </div>
+  <div class="about-hero-img">
+    <img loading="eager" decoding="async" src="images/iris-vision.svg" class="iris-about-visual iris-about-visual-1" alt="IRIS Corporation — vision digitale">
+  </div>
+</section>
+
+<!-- Values -->
+<section class="iris-section" style="background: var(--kimi-color-surface-muted);">
+  <h2 class="iris-section-title">Nos engagements</h2>
+  <p class="iris-section-sub">Les principes qui guident chaque projet IRIS</p>
+  <div class="about-values">
+    <div class="about-value iris-reveal"><div class="about-value-num">01</div><div class="about-value-label">Écoute & compréhension</div></div>
+    <div class="about-value iris-reveal"><div class="about-value-num">02</div><div class="about-value-label">Création sur mesure</div></div>
+    <div class="about-value iris-reveal"><div class="about-value-num">03</div><div class="about-value-label">Qualité & performance</div></div>
+    <div class="about-value iris-reveal"><div class="about-value-num">04</div><div class="about-value-label">Accompagnement durable</div></div>
+  </div>
+</section>
+
+<!-- Mission -->
+<section class="iris-section">
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center;">
+    <div style="border-radius: 16px; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,0.1);">
+      <img loading="lazy" decoding="async" src="images/iris-mission.svg" style="width: 100%; height: auto; display: block;" class="iris-about-visual iris-about-visual-2" alt="IRIS Corporation — mission et impact digital">
+    </div>
+    <div>
+      <h2 style="font-size: 32px; font-weight: 600; margin-bottom: 16px;">Notre mission</h2>
+      <p style="font-size: 16px; color: var(--kimi-color-text-secondary); line-height: 1.7; margin-bottom: 20px;">Démocratiser l'accès aux solutions digitales de qualité pour les entreprises en RDC. Nous voulons que chaque PME, startup et grande entreprise en RDC puisse compter sur un partenaire technologique fiable et compétent.</p>
+      <p style="font-size: 16px; color: var(--kimi-color-text-secondary); line-height: 1.7; margin-bottom: 20px;">Notre approche combine créativité, rigueur technique et compréhension du contexte local. Nous ne livrons pas juste du code — nous livrons des solutions qui fonctionnent pour vous.</p>
+      <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+        <div style="padding: 16px 24px; background: rgba(58,155,216,0.1); border-radius: 10px; text-align: center;">
+          <div style="font-size: 24px; font-weight: 700; color: #3A9BD8;">150+</div>
+          <div style="font-size: 12px; color: var(--kimi-color-text-tertiary);">Sites web créés</div>
+        </div>
+        <div style="padding: 16px 24px; background: rgba(58,155,216,0.1); border-radius: 10px; text-align: center;">
+          <div style="font-size: 24px; font-weight: 700; color: #3A9BD8;">50+</div>
+          <div style="font-size: 12px; color: var(--kimi-color-text-tertiary);">Apps mobiles</div>
+        </div>
+        <div style="padding: 16px 24px; background: rgba(58,155,216,0.1); border-radius: 10px; text-align: center;">
+          <div style="font-size: 24px; font-weight: 700; color: #3A9BD8;">3</div>
+          <div style="font-size: 12px; color: var(--kimi-color-text-tertiary);">Villes couvertes</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Visionnaires -->
+<section class="iris-section visionary-section" style="background: var(--kimi-color-surface-muted);">
+  <h2 class="iris-section-title">Nos visionnaires</h2>
+  <p class="iris-section-sub">Les fondateurs qui portent la vision d’IRIS Corporation</p>
+  <div class="visionaries-grid">
+    <div class="visionary-profile iris-reveal">
+      <img loading="lazy" decoding="async" src="images/jephte-kazadi.jpg" alt="Jephte Kazadi, visionnaire IRIS Corporation" class="visionary-photo">
+      <div>
+        <span class="role">LE VISIONNAIRE</span>
+        <h2>Jephte Kazadi</h2>
+        <p>Une vision tournée vers l’innovation, la créativité et la transformation digitale. Jephte Kazadi porte la vision d’IRIS Corporation RDC : créer des solutions digitales utiles, élégantes et pensées pour produire un véritable impact.</p>
+        <div class="signature">Jephte Kazadi</div>
+      </div>
+    </div>
+    <div class="visionary-profile iris-reveal">
+      <img loading="lazy" decoding="async" src="images/heruane-kabunda.jpeg" alt="Heruane Kabunda, visionnaire IRIS Corporation" class="visionary-photo">
+      <div>
+        <span class="role">LE VISIONNAIRE</span>
+        <h2>Heruane Kabunda</h2>
+        <p>Une vision complémentaire, portée par l’exigence et le sens du détail. Heruane Kabunda accompagne IRIS Corporation RDC dans la construction de solutions digitales solides et durables pour ses clients.</p>
+        <div class="signature">Heruane Kabunda</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Actualités -->
+<section class="iris-section">
+  <h2 class="iris-section-title">Actualités & vie de l'équipe</h2>
+  <p class="iris-section-sub">Ce qui se passe chez IRIS Corporation</p>
+  <div class="iris-portfolio-grid">
+    <div class="iris-portfolio-card iris-reveal" style="grid-column: 1 / -1;">
+      <div class="iris-portfolio-img news-feature-img portfolio-feature-gallery">
+        <img loading="lazy" decoding="async" src="images/innovations-days.jpeg" alt="IRIS Corporation à Innovations Days">
+        <div class="iris-video-facade" style="background-image:url('images/poster-innovations-2.jpg')" data-src="videos/innovations-days-2.mp4" onclick="irisPlayVideo(this)">
+          <div class="iris-video-play">▶</div>
+        </div>
+        <div class="iris-video-facade" style="background-image:url('images/poster-innovations-1.jpg')" data-src="videos/innovations-days-1.mp4" onclick="irisPlayVideo(this)">
+          <div class="iris-video-play">▶</div>
+        </div>
+      </div>
+      <div class="iris-portfolio-info">
+        <h4>Innovations Days</h4>
+        <p>IRIS a participé à Innovations Days, un événement dédié à l'innovation et aux nouvelles technologies.</p>
+        <div class="iris-portfolio-tags"><span class="iris-tag">Événement</span><span class="iris-tag">Innovation</span></div>
+      </div>
+    </div>
+
+    <div class="iris-portfolio-card iris-reveal" style="grid-column: 1 / -1;">
+      <div class="iris-portfolio-img news-feature-img">
+        <div class="iris-video-facade" style="background-image:url('images/africa-tech-invest.jpeg')" data-src="videos/africa-tech-invest.mp4" onclick="irisPlayVideo(this)">
+          <div class="iris-video-play">▶</div>
+        </div>
+      </div>
+      <div class="iris-portfolio-info">
+        <h4>Africa Tech Invest 2024</h4>
+        <p>IRIS a participé à Africa Tech Invest 2024, un rendez-vous majeur de l'innovation et des technologies en Afrique.</p>
+        <div class="iris-portfolio-tags"><span class="iris-tag">Événement</span><span class="iris-tag">Networking</span></div>
+      </div>
+    </div>
+
+    <div class="iris-portfolio-card iris-reveal">
+      <div class="iris-portfolio-img">
+        <div class="iris-video-facade" style="background-image:url('images/poster-catalogue.jpg')" data-src="videos/nouveau-catalogue.mp4" onclick="irisPlayVideo(this)">
+          <div class="iris-video-play">▶</div>
+        </div>
+      </div>
+      <div class="iris-portfolio-info">
+        <h4>Notre nouveau catalogue</h4>
+        <p>Découvrez le tout nouveau catalogue de services IRIS Corporation.</p>
+        <div class="iris-portfolio-tags"><span class="iris-tag">Catalogue</span></div>
+      </div>
+    </div>
+
+    <div class="iris-portfolio-card iris-reveal">
+      <div class="iris-portfolio-img">
+        <div class="iris-video-facade" style="background-image:url('images/poster-coulisses.jpg')" data-src="videos/coulisses-tournage.mp4" onclick="irisPlayVideo(this)">
+          <div class="iris-video-play">▶</div>
+        </div>
+      </div>
+      <div class="iris-portfolio-info">
+        <h4>En coulisses</h4>
+        <p>Un aperçu du travail de l'équipe IRIS sur le terrain, caméra en main.</p>
+        <div class="iris-portfolio-tags"><span class="iris-tag">Coulisses</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Paiement -->
+<section class="iris-section">
+  <div class="payment-trust payment-trust-large iris-reveal">
+    <div class="payment-trust-icon">✓</div>
+    <div>
+      <span class="payment-trust-kicker">ENGAGEMENT IRIS</span>
+      <h2>Vous appréciez d’abord, vous payez ensuite.</h2>
+      <p>Le paiement intervient <strong>après la livraison du site</strong>. Vous avez ainsi la possibilité d’apprécier le résultat avant de payer quoi que ce soit.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="iris-section" style="text-align: center; background: linear-gradient(135deg, #1a5f9e 0%, #3A9BD8 100%); color: white; border-radius: 24px; margin: 40px auto; max-width: 1100px;">
+  <h2 style="font-size: 32px; font-weight: 600; margin-bottom: 16px;">Travaillons ensemble</h2>
+  <p style="font-size: 18px; opacity: 0.9; max-width: 600px; margin: 0 auto 32px;">Nous sommes prêts à transformer votre vision en réalité digitale.</p>
+  <a href="contact.html" class="iris-btn-gold">Nous contacter</a>
+</section>
+
+<a class="whatsapp-float" href="https://wa.me/243821362838" target="_blank" rel="noopener" aria-label="Contacter IRIS sur WhatsApp"><span>◔</span><b>WhatsApp</b></a>
+
+<!-- Footer -->
+<footer class="iris-footer">
+  <div class="iris-footer-logo">
+    <div class="iris-footer-logo-box"><span>I</span></div>
+    <div class="iris-footer-logo-text">IRIS Corporation RDC</div>
+  </div>
+  <div class="iris-footer-links">
+    <a href="index.html">Accueil</a>
+    <a href="services.html">Services</a>
+    <a href="promo.html">Promo</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="apropos.html">À Propos</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <div class="iris-footer-copy">© 2026 IRIS Corporation RDC. Tous droits réservés.</div>
+</footer>
+
+<script>
+  function irisPlayVideo(facade) {
+    const src = facade.dataset.src;
+    const video = document.createElement('video');
+    video.src = src;
+    video.controls = true;
+    video.autoplay = true;
+    video.playsInline = true;
+    video.style.width = '100%';
+    video.style.height = '100%';
+    video.style.objectFit = 'cover';
+    video.style.display = 'block';
+    facade.replaceWith(video);
+    video.play().catch(() => {});
+  }
+  function toggleMobileMenu() {
+    const menu = document.getElementById('mobileMenu');
+    menu.classList.toggle('active');
+  }
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); } });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.iris-reveal').forEach(el => observer.observe(el));
+</script>
+
+
+<script>
+(function(){
+  const root=document.documentElement;
+  const progress=document.querySelector('.iris-scroll-progress');
+  const nav=document.querySelector('.iris-nav');
+
+  function onScroll(){
+    const max=document.documentElement.scrollHeight-window.innerHeight;
+    const pct=max>0?(window.scrollY/max)*100:0;
+    if(progress) progress.style.width=pct+'%';
+    if(nav) nav.classList.toggle('scrolled',window.scrollY>18);
+  }
+  onScroll();
+  window.addEventListener('scroll',onScroll,{passive:true});
+
+  window.addEventListener('pointermove',function(e){
+    root.style.setProperty('--mx',e.clientX+'px');
+    root.style.setProperty('--my',e.clientY+'px');
+  },{passive:true});
+
+  document.querySelectorAll('.iris-service-card,.why-card,.iris-portfolio-card').forEach(function(card){
+    card.addEventListener('pointermove',function(e){
+      if(window.matchMedia('(max-width: 768px)').matches) return;
+      const r=card.getBoundingClientRect();
+      const x=(e.clientX-r.left)/r.width-.5;
+      const y=(e.clientY-r.top)/r.height-.5;
+      card.style.transform='translateY(-8px) perspective(900px) rotateX('+(-y*2.2)+'deg) rotateY('+(x*2.2)+'deg)';
+    });
+    card.addEventListener('pointerleave',function(){
+      card.style.transform='';
+    });
+  });
+})();
+</script>
+
+
+<script>
+(()=> {
+ const body=document.body;
+ const progress=document.createElement('div'); progress.className='iris-progress'; body.appendChild(progress);
+ const cursor=document.createElement('div'); cursor.className='iris-cursor'; body.appendChild(cursor);
+ const dot=document.createElement('div'); dot.className='iris-cursor-dot'; body.appendChild(dot);
+ body.classList.add('iris-ready');
+
+ let mx=innerWidth/2,my=innerHeight/2,cx=mx,cy=my;
+ addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY});
+ function tick(){
+   cx += (mx-cx)*.16; cy += (my-cy)*.16;
+   cursor.style.left=cx+'px'; cursor.style.top=cy+'px';
+   dot.style.left=mx+'px'; dot.style.top=my+'px';
+   requestAnimationFrame(tick);
+ }
+ tick();
+
+ function updateProgress(){
+   const h=document.documentElement, max=h.scrollHeight-innerHeight;
+   progress.style.width=(max>0?(scrollY/max*100):0)+'%';
+ }
+ addEventListener('scroll',updateProgress,{passive:true}); updateProgress();
+
+ const io=new IntersectionObserver(es=>es.forEach(e=>{
+   if(e.isIntersecting){e.target.classList.add('iris-visible');io.unobserve(e.target)}
+ }),{threshold:.12});
+ document.querySelectorAll('section,article,.card,.service-card,.portfolio-item,.project-card,.feature,.hero-content,.hero-image').forEach((el,i)=>{
+   el.classList.add('iris-reveal');
+   el.style.transitionDelay=Math.min(i*35,280)+'ms';
+   io.observe(el);
+ });
+
+ document.querySelectorAll('a,button,[role="button"]').forEach(el=>{
+   el.addEventListener('mouseenter',()=>{cursor.style.transform='translate(-50%,-50%) scale(1.65)';cursor.style.borderColor='rgba(255,255,255,.85)'});
+   el.addEventListener('mouseleave',()=>{cursor.style.transform='translate(-50%,-50%) scale(1)';cursor.style.borderColor='rgba(255,255,255,.55)'});
+ });
+
+ document.querySelectorAll('.iris-magnetic').forEach(el=>{
+   el.addEventListener('mousemove',e=>{
+     const r=el.getBoundingClientRect(),x=(e.clientX-r.left-r.width/2)/r.width,y=(e.clientY-r.top-r.height/2)/r.height;
+     el.style.transform=`translate(${x*10}px,${y*10}px)`;
+   });
+   el.addEventListener('mouseleave',()=>el.style.transform='');
+ });
+})();
+</script>
+
+</body>
+</html>
